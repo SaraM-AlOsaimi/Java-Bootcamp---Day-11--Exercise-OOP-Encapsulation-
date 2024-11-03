@@ -95,6 +95,7 @@ public class Main {
         }while (choice != 5);
 
 
+        System.out.println(account);
 
     }
 }
