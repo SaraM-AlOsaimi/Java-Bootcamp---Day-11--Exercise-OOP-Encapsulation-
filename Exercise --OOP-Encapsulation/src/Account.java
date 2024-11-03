@@ -75,12 +75,10 @@ public class Account {
         System.out.println("Account Information : " + getName() + getId() + getBalance());
     }
 
-//    public static void checkBalance(int balance){
-//        if(balance){
-//
-//        }
-
-
+@Override
+public String toString() {
+    return "Account ID: " + id + ", Name: " + name + ", Current Balance: " + balance + " SAR";
+}
 
 
 
